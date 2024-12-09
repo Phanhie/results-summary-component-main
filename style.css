@@ -10,14 +10,19 @@
 
 body{
     width: 100%;
-    margin: auto;
+    margin: auto; 
+    position: relative;
 }
 
 .main-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-left: 450px;
     margin-top: 100px;
+   
 }
 
 .container1 p{
@@ -37,6 +42,8 @@ body{
     width: 370px;
     border-radius: 20px;
     color: white;
+    position: absolute;
+    left: 350px;
 }
 
 .container1 .circle{
@@ -47,7 +54,7 @@ body{
     width: 170px;
     height: 170px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsl(252, 100%, 67%)) ;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsla(241, 81%, 54%, 0.2)) ;
 }
 
 .container1 h2{
@@ -64,8 +71,8 @@ body{
 
 .container2{
     height: 500px;
-    width: 370px;
-    border-radius: 20px;
+    width: 400px;
+    border-radius: 0 20px 20px 0 ;
     color: black;
     box-shadow: 2px 3px 7px hsl(241, 100%, 89%);
 }
@@ -99,7 +106,7 @@ body{
 } 
 
 .container2 h1{
-    margin: 40px 50px 20px 20px;
+    margin: 40px 50px 20px 35px;
 }
 
 .reaction {
@@ -143,9 +150,10 @@ span{
 }
 
 button{
-    width: 89%;
-    margin: 20px;
-    margin-top: 40px;
+    width: 80%;
+    margin: 40px  ;
+    /* margin-top: 40px;
+    margin-left: 20px; */
     height: 50px;
     border-radius: 30px;
     border: none;
