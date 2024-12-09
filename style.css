@@ -151,9 +151,7 @@ span{
 
 button{
     width: 80%;
-    margin: 40px  ;
-    /* margin-top: 40px;
-    margin-left: 20px; */
+    margin: 40px ;
     height: 50px;
     border-radius: 30px;
     border: none;
@@ -166,6 +164,45 @@ button{
 button:hover{
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(234, 85%, 45%));
 }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    body{
+        position: static;
+    }
+    .container1{
+        position: static;
+        border-radius: 0px 0px 50px 50px;
+        height: 30%;
+        width: 90%;
+        padding: 20px;
+    }
+    .container1 h2{
+        font-size: 30px;
+        color: hsla(0, 0%, 100%, 0.7);
+
+    }
+
+    .main-container{
+       flex-direction: column;
+       width: 100%;
+       margin: auto;
+
+    }
+    .container1 .circle{
+        background: linear-gradient(to bottom,hsl(241, 81%, 54%) , hsla(241, 81%, 54%, 0.2)) ;
+    }
+    .score p{
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .container2 h1{
+        font-size: 25px;
+    }
+    
+
+  }
+  
 
 
 
