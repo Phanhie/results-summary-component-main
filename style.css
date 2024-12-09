@@ -103,19 +103,19 @@ body{
 }
 
 .reaction {
-    background-color: hsla(0, 100%, 67%, 0.32);
+    background-color: hsla(0, 100%, 67%, 0.1);
 }
 
 .memory {
-    background-color: hsla(39, 100%, 56%, 0.2);
+    background-color: hsla(39, 100%, 56%, 0.1);
 }
 
 .verbal{
-    background-color: hsla(166, 100%, 37%, 0.2);
+    background-color: hsla(166, 100%, 37%, 0.1);
 }
 
 .visual{
-    background-color: hsla(234, 85%, 45%, 0.2);
+    background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 .reaction .title1 p{
@@ -155,6 +155,9 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+}
 
 
 
