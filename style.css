@@ -200,6 +200,10 @@ button:hover{
         font-size: 25px;
     }
     
+    .container2{
+        border-radius: 0;
+        box-shadow: none;
+    }
 
   }
   
